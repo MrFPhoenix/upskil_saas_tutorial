@@ -17,10 +17,12 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
 
+/*Typography styles*/
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+/*Background colour*/
 .navbar, .home-callout { 
   //Gradient provided by https://uigradients.com/#Moonrise
   background: #DAE2F8;  /* fallback for old browsers */
@@ -28,6 +30,7 @@ h1, h2, h3 {
   background: linear-gradient(to left, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/* Navbar style and text colour*/
 .navbar {
   border:none;
 }
