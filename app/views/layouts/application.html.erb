@@ -19,7 +19,7 @@
             <span class="icon-bar"></span>
           </button>
           <!--<a href="/" class="navbar-brand"><i class="fa fa-users"></i> DevMatch</a>-->
-          <%= link_to "/", class: "navbar-brand" do %>
+          <%= link_to root_path , class: "navbar-brand" do %>
             <i class ="fa fa-users"></i>
             DevMatch
           <% end %>
@@ -28,7 +28,7 @@
           <ul class="nav navbar-nav navbar-right">
             <!--<li><a href="/about"><i class="fa fa-book"></i> About</a></li>-->
             <li>
-              <%= link_to "/about" do %>
+              <%= link_to about_path do %>
               <i class ="fa fa-book"></i>
               About
               <% end %>
